@@ -28,7 +28,8 @@ def search_jobs_with_firecrawl(job_query: str, location: str = "", experience_le
     # Major job websites to search
     job_websites = [
         "https://www.indeed.com/*",
-        "https://www.glassdoor.com/Jobs/*"
+        "https://www.glassdoor.com/Jobs/*",
+        "https://www.linkedin.com/jobs/*",
     ]
     
     # Create search prompt
